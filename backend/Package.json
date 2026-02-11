@@ -1,9 +1,9 @@
 {
   "name": "valen-backend",
   "version": "1.0.0",
-  "main": "Server.js",
+  "main": "Server.cjs",
   "scripts": {
-    "start": "node Server.js"
+    "start": "node Server.cjs"
   },
   "engines": {
     "node": ">=18"
