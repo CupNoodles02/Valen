@@ -9,13 +9,14 @@ const server = http.createServer(app);
 // Configure CORS
 app.use(cors());
 
-// Configure Socket.IO with CORS
+// In Server.cjs
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:5173", // Vite default port
+    origin: "*", // allow all origins for testing
     methods: ["GET", "POST"]
   }
 });
+
 
 // Store active users
 const activeUsers = new Map();
