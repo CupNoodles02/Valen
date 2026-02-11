@@ -33,7 +33,7 @@ const ChatWidget = ({ defaultUsername = 'Guest' }: ChatWidgetProps) => {
 
   // Initialize socket connection
   useEffect(() => {
-    const newSocket = io('http://localhost:3001');
+    const newSocket = io('https://still-recently-polliwog.ngrok-free.app/');
     setSocket(newSocket);
 
     newSocket.on('connect', () => {
