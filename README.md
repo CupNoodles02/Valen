@@ -19,10 +19,7 @@ An interactive chat widget where users can engage in conversation. The chat incl
 - Custom styling with dedicated CSS
 
 ### 🎯 Explain Feature
-A new AI-powered feature that helps explain and provide context for messages and interactions within the chat. This feature enhances user understanding by:
-- Providing detailed explanations for complex topics
-- Offering contextual help during conversations
-- Clarifying Valentine's Day traditions and romantic gestures
+A feature that helps provide context and explanations for messages and interactions within the chat, enhancing user understanding during conversations.
 
 ### ❤️ Floating Hearts Animation
 Beautiful animated floating hearts that create a romantic ambiance throughout the application.
