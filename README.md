@@ -30,19 +30,19 @@ Beautiful animated floating hearts that create a romantic ambiance throughout th
 - **Framework:** React 18+ with TypeScript
 - **Build Tool:** Vite for fast development and optimized production builds
 - **Styling:** Custom CSS with component-specific stylesheets
-- **Deployment:** Vercel (frontend hosting)
+- **Deployment:** Render (frontend hosting)
 
 ### Backend
-Located in the `/backend` directory, the backend is deployed on **Vercel Serverless Functions** and handles:
+Located in the `/backend` directory, the backend is deployed on **Render** and handles:
 - API endpoints for chat functionality
 - Data processing for the explain feature
 - Server-side logic and integrations
 
-The backend is configured to work seamlessly with Vercel's serverless architecture, providing:
-- Automatic scaling
-- Global CDN distribution
-- Zero-configuration deployments
+The backend is deployed on Render, providing:
+- Reliable hosting and automatic scaling
+- Easy deployment from Git
 - Environment variable management
+- Built-in logging and monitoring
 
 ## 🚀 Getting Started
 
@@ -118,7 +118,8 @@ Valen/
 - **React** - UI library for building user interfaces
 - **TypeScript** - Type-safe JavaScript
 - **Vite** - Next-generation frontend build tool
-- **Vercel** - Deployment platform for frontend and serverless backend
+- **Vercel** - Frontend deployment platform
+- **Render** - Backend API deployment platform
 - **CSS3** - Custom styling and animations
 
 ## 🔧 Configuration
@@ -147,13 +148,16 @@ Vite configuration in `vite.config.ts` includes React plugin setup and build opt
 ### Frontend Deployment (Vercel)
 The frontend is automatically deployed to Vercel when changes are pushed to the repository.
 
-### Backend Deployment (Vercel)
-The backend API is deployed as Vercel Serverless Functions:
-1. API routes are automatically detected in the `backend/api` directory
-2. Functions are deployed alongside the frontend
-3. Environment variables can be configured in the Vercel dashboard
+### Backend Deployment (Render)
+The backend API is deployed on Render:
+1. Connect your GitHub repository to Render
+2. Configure build and start commands
+3. Set environment variables in the Render dashboard
+4. Automatic deployments on git push
 
 ### Manual Deployment
+
+**Frontend (Vercel):**
 ```bash
 # Install Vercel CLI
 npm i -g vercel
@@ -161,6 +165,10 @@ npm i -g vercel
 # Deploy
 vercel --prod
 ```
+
+**Backend (Render):**
+- Push changes to your connected Git repository
+- Or use Render's manual deploy feature in the dashboard
 
 ## 🤝 Contributing
 
