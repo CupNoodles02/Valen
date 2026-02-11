@@ -33,7 +33,7 @@ const ChatWidget = ({ defaultUsername = 'Guest' }: ChatWidgetProps) => {
 
   // Initialize socket connection
   useEffect(() => {
-    const newSocket = io('https://valen-1.onrender.com/');
+    const newSocket = io('https://valen-1.onrender.com');
     setSocket(newSocket);
 
     newSocket.on('connect', () => {
