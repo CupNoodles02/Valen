@@ -193,7 +193,6 @@ This project is open source and available under the [MIT License](LICENSE).
 - [ ] Add more interactive features to the chat widget
 - [ ] Implement user authentication
 - [ ] Add message persistence
-- [ ] Enhance the explain feature with more AI capabilities
 - [ ] Add sound effects and background music
 - [ ] Create more animated elements
 - [ ] Mobile responsive improvements
